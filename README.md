@@ -10,10 +10,10 @@ Nesta Quest, o objetivo era criar um layout responsivo, de acordo com o design p
 ## Design das telas - 📱💻
 
 ### Tela Mobile 
-<img src="../iPhone-13-mini-386x876.png">
+<img src="./src/design/iPhone-13-mini-386x876.png">
 
 ### Tela Desktop
-<img src="../Macbook-Air-1559x975.png">
+<img src="./src/design/Macbook-Air-1559x975.png">
 
 
 ### Ícones
