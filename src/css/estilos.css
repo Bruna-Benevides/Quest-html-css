@@ -1,9 +1,21 @@
-body {
-    background: url('../images/bg-desktop.svg') no-repeat;
+html {
+        background: url('../images/bg-desktop.svg') center no-repeat;
+    background-size: cover;
+   
     background-color: hsl(257, 40%, 49%);
     height: 100vh;
     max-width: 1440px;
     margin: 0 auto;
+   
+    padding: 0 24px;
+}
+ 
+body {
+    /* background: url('../images/bg-desktop.svg') center no-repeat;
+    background-position: contain;
+    width: 100%;
+    background-color: hsl(257, 40%, 49%); */
+
 }
 
 .logo {
@@ -17,6 +29,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 70vh;
+    gap: 40px;
 }
 
 .design {
@@ -30,16 +44,15 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
-    gap: 20px;
-    padding: 35px 0;
-    height: 64vh;
+    flex-wrap: nowrap;
+   padding: 35px 20px;
+    /* height: 64vh; */
 
 }
 
 .info h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: #fff;
 
@@ -47,14 +60,14 @@ main {
 
 .info p {
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    flex-wrap: nowrap;
+    font-size: 0.9rem;
+    font-weight: 400;
     width: 100%;
     color: #fff;
 }
 
 .registro {
-    font-weight: 600;
+    font-weight:400;
     margin-top: 20px;
     transition: 0.3s ease-in-out;
 }
